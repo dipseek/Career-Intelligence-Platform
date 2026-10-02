@@ -1,13 +1,39 @@
 the link to get api od dataset is:
 https://rapidapi.com/techmap-io-techmap-io-default/api/daily-international-job-postings
 
+
+I built a career intelligence system using aggregated job-posting data from multiple sources.
+
 **SKILL TEXONOMY**
-1. Data Collection
-2. Data cleaning
-3. Explorartory Data Analysis
-4. Data Training
-5. Data Testing
-6. 
+Category             Skills
+
+Programming          Python
+                     Java
+                     C++
+
+Data                 SQL
+                     Pandas
+                     NumPy
+
+Visualization        Power BI
+                     Tableau
+
+Machine Learning     Machine Learning
+                     Scikit-learn
+                     XGBoost
+
+Deep Learning        TensorFlow
+                     PyTorch
+
+NLP                  NLP
+                     NLTK
+                     spaCy
+
+Cloud                 AWS
+                      Azure
+
+DevOps                Docker
+                      Kubernetes 
 
 **How should my data look?**
 

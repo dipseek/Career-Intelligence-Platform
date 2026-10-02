@@ -1,0 +1,6 @@
+streamlit
+pymupdf
+pandas
+scikit-learn
+joblib
+scipy
