@@ -65,8 +65,8 @@ The recommendation system combines multiple signals:
 - Job seniority compatibility
 
 The current MVP uses the following weighted scoring approach:
-Final Score =
-    50% Skill Similarity + 30% Text Similarity +  5% Experience Compatibility + 15% Seniority Compatibility
+
+Final Score =50% Skill Similarity + 30% Text Similarity +  5% Experience Compatibility + 15% Seniority Compatibility
 
 ## Explainable Recommendations
 For each recommended job, the platform displays:
@@ -175,8 +175,6 @@ project1-career-intelligence/
 ### Clone the repository:
 ```bash
 git clone <https://github.com/dipseek/Career-Intelligence-Platform.git>
-
-cd project1-career-intelligence
 ```
 
 ### Install dependencies:
