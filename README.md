@@ -52,93 +52,90 @@ Candidate Skill Profile
 ## Key Features
 
 ### Resume Analysis
-PDF text extraction using PyMuPDF
-Automated skill extraction
-Skill normalization and alias handling
-Candidate skill profile generation
+- PDF text extraction using PyMuPDF
+- Automated skill extraction
+- Skill normalization and alias handling
+- Candidate skill profile generation
 
 ## Job Recommendation
 The recommendation system combines multiple signals:
-Skill similarity
-Resume-job text similarity using TF-IDF
-Experience compatibility
-Job seniority compatibility
+- Skill similarity
+- Resume-job text similarity using TF-IDF
+- Experience compatibility
+- Job seniority compatibility
 
 The current MVP uses the following weighted scoring approach:
 Final Score =
-    50% Skill Similarity
-  + 30% Text Similarity
-  +  5% Experience Compatibility
-  + 15% Seniority Compatibility
+    50% Skill Similarity + 30% Text Similarity +  5% Experience Compatibility + 15% Seniority Compatibility
 
 ## Explainable Recommendations
 For each recommended job, the platform displays:
-Match score
-Company
-Work mode
-Salary when disclosed
-Experience requirement
-Matched skills
-Skill gaps
+- Match score
+- Company
+- Work mode
+- Salary when disclosed
+- Experience requirement
+- Matched skills
+- Skill gaps
 
 ## Interactive Dashboard
 The Streamlit dashboard provides:
-Number of jobs analyzed
-Number of detected candidate skills
-Top match score
-Match score visualization
-Work mode distribution
-Most in-demand skills
-Work mode filtering
-Minimum match score filtering
+- Number of jobs analyzed
+- Number of detected candidate skills
+- Top match score
+- Match score visualization
+- Work mode distribution
+- Most in-demand skills
+- Work mode filtering
+- Minimum match score filtering
 
 ## Dataset
 The project uses a job-posting dataset containing 23,000+ job records.
 The dataset was cleaned and processed to extract information including:
-Job title
-Company
-Location
-Role category
-Experience range
-Required skills
-Job description
-Work mode
-Salary information
+- Job title
+- Company
+- Location
+- Role category
+- Experience range
+- Required skills
+- Job description
+- Work mode
+- Salary information
 
 ## Machine Learning / NLP
 
 ### Skill Representation
-Job skills are converted into a multi-label binary representation using MultiLabelBinarizer.
-The resulting high-dimensional skill matrix is stored using a sparse representation to reduce memory and storage requirements.
+- Job skills are converted into a multi-label binary representation using MultiLabelBinarizer.
+- The resulting high-dimensional skill matrix is stored using a sparse representation to reduce memory and storage requirements.
 
 ### Text Similarity
-TF-IDF with unigrams and bigrams is used to represent job descriptions and resume text.
-Cosine similarity is then used to measure the similarity between the candidate resume and each job.
+- TF-IDF with unigrams and bigrams is used to represent job descriptions and resume text.
+- Cosine similarity is then used to measure the similarity between the candidate resume and each job.
 
 ## Tech Stack
 
 ### Programming
-Python
+- Python
 
 ### Machine Learning / NLP
-Scikit-learn
-TF-IDF
-Cosine Similarity
-MultiLabelBinarizer
+- Scikit-learn
+- TF-IDF
+- Cosine Similarity
+- MultiLabelBinarizer
 
-#Data Processing
-Pandas
-NumPy
+### Data Processing
+- Pandas
+- NumPy
 
 ### PDF Processing
-PyMuPDF
+- PyMuPDF
 
 ### Application
-Streamlit
+- Streamlit
 
 ### Model Storage
-Joblib
-SciPy sparse matrices
+- Joblib
+- SciPy sparse matrices
 
 ## Project Structure
 ```text
@@ -176,14 +173,21 @@ project1-career-intelligence/
 ## Installation
 
 ### Clone the repository:
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+```bash
+git clone <https://github.com/dipseek/Career-Intelligence-Platform.git>
+
 cd project1-career-intelligence
+```
 
 ### Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 ### Run the application:
+```bash
 streamlit run app.py
+```
 
 Then upload a resume PDF through the application.
 
@@ -191,16 +195,16 @@ Then upload a resume PDF through the application.
 
 Potential improvements for future versions include:
 
-Sentence-transformer embeddings for semantic similarity
-Improved resume information extraction
-Better experience extraction from resumes
-Personalized job preferences
-Location preference matching
-Salary preference matching
-Skill importance weighting
-More advanced recommendation models
-User feedback-based recommendation improvement
-Job application tracking
+- Sentence-transformer embeddings for semantic similarity
+- Improved resume information extraction
+- Better experience extraction from resumes
+- Personalized job preferences
+- Location preference matching
+- Salary preference matching
+- Skill importance weighting
+- More advanced recommendation models
+- User feedback-based recommendation improvement
+- Job application tracking
 
 ## Project Status
 
