@@ -18,7 +18,7 @@ This project automates that process by:
 - Providing an interactive Streamlit dashboard
 
 ## How It Works
-
+```text
 Resume PDF
     ↓
 Resume Text Extraction
@@ -47,7 +47,7 @@ Candidate Skill Profile
        Top Job Recommendations
                   ↓
        Skill Gaps + Explanation
-
+```
 
 ## Key Features
 
@@ -141,7 +141,7 @@ Joblib
 SciPy sparse matrices
 
 ## Project Structure
-
+```text
 project1-career-intelligence/
 │
 ├── app.py
@@ -171,6 +171,7 @@ project1-career-intelligence/
 │
 └── src/
     └── resume_parser.py
+```
 
 ## Installation
 
