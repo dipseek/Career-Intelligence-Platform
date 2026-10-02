@@ -19,7 +19,6 @@ This project automates that process by:
 
 ## How It Works
 
-```text
 Resume PDF
     ↓
 Resume Text Extraction
@@ -52,7 +51,7 @@ Candidate Skill Profile
 
 ## Key Features
 
-# Resume Analysis
+### Resume Analysis
 PDF text extraction using PyMuPDF
 Automated skill extraction
 Skill normalization and alias handling
@@ -108,20 +107,20 @@ Salary information
 
 ## Machine Learning / NLP
 
-# Skill Representation
+### Skill Representation
 Job skills are converted into a multi-label binary representation using MultiLabelBinarizer.
 The resulting high-dimensional skill matrix is stored using a sparse representation to reduce memory and storage requirements.
 
-# Text Similarity
+### Text Similarity
 TF-IDF with unigrams and bigrams is used to represent job descriptions and resume text.
 Cosine similarity is then used to measure the similarity between the candidate resume and each job.
 
 ## Tech Stack
 
-# Programming
+### Programming
 Python
 
-# Machine Learning / NLP
+### Machine Learning / NLP
 Scikit-learn
 TF-IDF
 Cosine Similarity
@@ -131,13 +130,13 @@ MultiLabelBinarizer
 Pandas
 NumPy
 
-# PDF Processing
+### PDF Processing
 PyMuPDF
 
-# Application
+### Application
 Streamlit
 
-# Model Storage
+### Model Storage
 Joblib
 SciPy sparse matrices
 
@@ -175,14 +174,14 @@ project1-career-intelligence/
 
 ## Installation
 
-# Clone the repository:
+### Clone the repository:
 git clone <YOUR_GITHUB_REPOSITORY_URL>
 cd project1-career-intelligence
 
-# Install dependencies:
+### Install dependencies:
 pip install -r requirements.txt
 
-# Run the application:
+### Run the application:
 streamlit run app.py
 
 Then upload a resume PDF through the application.
