@@ -209,3 +209,9 @@ Potential improvements for future versions include:
 Current status: MVP completed
 
 The current version supports resume parsing, job matching, recommendation ranking, skill-gap analysis, explainability, filtering, and an interactive Streamlit dashboard.
+
+## Live Demo
+
+[Try the AI Career Intelligence Platform]
+
+(https://a-career-intelligence-platform.streamlit.app)
