@@ -214,4 +214,4 @@ The current version supports resume parsing, job matching, recommendation rankin
 
 [Try the AI Career Intelligence Platform]
 
-(https://a-career-intelligence-platform.streamlit.app)
+https://a-career-intelligence-platform.streamlit.app
